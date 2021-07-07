@@ -1,0 +1,51 @@
+body{
+    border: 8px solid palevioletred ;
+    text-align: center;
+    width: 40%;
+    margin-left: 400px;
+
+    
+}
+#myForm{
+    text-decoration: none;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#countySel{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:tomato;
+    color: wheat;
+    font-style: bold;
+
+}
+#stateSel{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: royalblue;
+    color: wheat;
+    font-style: bold;
+
+}
+#districtSel{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: saddlebrown;
+    color: wheat;
+    font-style: bold;
+
+}
+#button{
+    background-color: aqua;
+    font-size: 20px;
+    color: black;
+    border-radius: 4px;
+
+}
+form{
+    background-color: blanchedalmond;
+}

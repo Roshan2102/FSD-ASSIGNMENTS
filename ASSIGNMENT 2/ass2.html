@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digtal clock</title>
+    <link rel="stylesheet" href="ass2.css" />
+  </head>
+  <body onload="clock()">
+    <h2>DIGITAL CLOCK WITH STOPWATCH</h2>
+    <form>
+      <fieldset class="clock">
+        <legend>Clock</legend>
+        <div id="txt"></div>
+      </fieldset>
+    </form>
+    <hr>
+    <fieldset class="clock">
+      <legend>Stopwatch</legend>
+      <button onclick="startTimer()">Start</button>
+      <button onclick="stopTimer()">Stop</button>
+      <button onclick="resetTimer()">Reset</button>
+      <span id="stopwatch">00:00:00</span>
+    </fieldset>
+    <script src="ass2.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../ASSIGNMENT 1/ass1.css">
+        <title>LOCALSTORAGE</title>
+    </head>
+    <body>
+        <h2>FORM SIGNUP USING LOCALSTORAGE</h2>
+        <form> 
+            <pre> 
+            Product Id :           <input type="text" name="productid" id="pid"/> <br/>  
+            Product Name :         <input type="text" name="productname" id="pname"/> <br/>  
+            Product Price :        <input type="text" name="productprice" id="pprice"/> <br/>  
+            Product Description :  <input type="text" name="productdesc" id="pdes"/> <br/>  
+            </pre>
+            <div>
+            <button onclick="Submit()">Submit</button>
+            <button onclick="Reset()">Reset</button>
+            <button onclick="ClearAll()" >ClearAll</button>
+         </form>  
+
+         <hr>
+    <div>
+        <table id="table">
+            <thead>
+              <tr>
+                <th scope="col">Product ID</th>
+                <th scope="col">Product Name</th>
+                <th scope="col">Product Price</th>
+                <th scope="col">Product Description</th>
+              </tr>
+            </thead>
+            <tbody id="tabledata">
+                <!-- dynamically element will be added -->
+            </tbody>
+          </table>
+    </body>
+    <script src="../ASSIGNMENT 1/ass1.js"></script>
+
+</html>

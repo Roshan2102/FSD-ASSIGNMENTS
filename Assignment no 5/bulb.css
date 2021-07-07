@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-size: cover;
+    padding: 100px;
+    
+}
+.button-box .button{
+    width: 141px;
+    height: 80px;
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.button-box .button:after{
+   content: '';
+   display: block;
+   position: absolute;
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+   width: 60px;
+   height: 60px;
+   background: #ddd;
+   top: 10px;
+   border-radius: 15px;
+   transition: all 0.8s;
+}
+.button-box input[type="checkbox"]{
+    display: none;
+
+}
+.button-box input[type="checkbox"]:checked+.button:after{
+  right: 64px;
+  background:red;
+}
+
+.button-text-wrapper h1{
+   font-size: 58px;
+}
+.bulb1{
+    top: 0;
+    left: 300px;
+    position: absolute;
+
+}
+.bulb2{
+    top: 0;
+    left: 600px;
+    position: absolute;
+}
+.bulb3{
+    top: 0;
+    left: 900px;
+    position: absolute;
+}
+.bulb4{
+    top: 0;
+    left: 1200px;
+    position: absolute;
+}
